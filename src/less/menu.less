@@ -68,11 +68,10 @@
       border: none;
 
       // Show a shadow when hovering over a menu item
-      &:hover {
+      &:hover,
+      &:focus {
         background: @selectedColor;
         color: #0f0f0f;
-      }
-      &:focus {
         // background-color: negation(@headerBackgroundColor, #fff);
       }
       &.ui-grid-menu-item-active {
